@@ -1,8 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permiso para la cámara -->
     <uses-permission android:name="android.permission.CAMERA" />
+    
+    <!-- Permiso para grabar audio -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- Permiso para acceder a Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- Permiso para acceder al estado de la red -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permiso para controlar la vibración -->
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:label="webrtc_app"
         android:name="${applicationName}"
